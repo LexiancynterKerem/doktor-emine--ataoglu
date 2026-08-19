@@ -110,22 +110,24 @@
 
     <main>
 
-        <section id="hero">
-
-            <div class="slider-container">
-                <div class="slide active" style="background-image: url('hero-banner.png');"></div>
+        <section id="hero"
+            style="height: auto; padding-top: 110px; display: block; overflow: visible; background-color: var(--light-bg); text-align: center;">
+            <div style="width: 100%; max-width: 1200px; margin: 0 auto; box-shadow: 0 10px 30px rgba(0,0,0,0.1);">
+                <img src="hero-banner.png" alt="Uzm. Dr. Emine Ataoğlu - Fizik Tedavi ve Rehabilitasyon"
+                    style="width: 100%; height: auto; display: block;">
             </div>
 
-            <div class="hero-overlay"></div>
+            <!-- Arama motorları için gizli tutulan SEO metni (Görselin üzerinde karmaşa yaratmaması için gizlendi) -->
+            <div
+                style="position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); border: 0;">
+                <h1 id="corlu-fizik-tedavi-baslik">Sağlıklı Hareket, Ağrısız Yaşam.</h1>
+                <h2>Fizik Tedavi ve Rehabilitasyon alanındaki uzmanlığımızla, bedensel fonksiyonlarınızı geri
+                    kazanmanıza ve yaşam kalitenizi artırmanıza yardımcı oluyoruz. Kanıta dayalı yöntemler ve kişiye
+                    özel tedavi planları sunuyoruz.</h2>
+            </div>
 
-            <div class="container hero-content">
-                <h1 style="font-size: 3rem; line-height: 1.2; margin-bottom: 20px;" id="corlu-fizik-tedavi-baslik">
-                    Sağlıklı Hareket,<br>Ağrısız Yaşam.</h1>
-                <h2 style="max-width: 800px; margin: 0 auto 30px;">Fizik Tedavi ve Rehabilitasyon alanındaki
-                    uzmanlığımızla, bedensel fonksiyonlarınızı geri kazanmanıza ve yaşam kalitenizi artırmanıza yardımcı
-                    oluyoruz. Kanıta dayalı yöntemler ve kişiye özel tedavi planları sunuyoruz.</h2>
-
-                <div class="hero-buttons">
+            <div class="container" style="padding: 40px 15px 50px 15px;">
+                <div class="hero-buttons" style="display: flex; flex-wrap: wrap; justify-content: center; gap: 15px;">
                     <a href="#tedaviler" class="btn btn-primary" title="Çorlu Fizik Tedavi Yöntemleri">Öne Çıkan
                         Tedaviler</a>
                     <a href="#iletisim" class="btn btn-secondary" title="Çorlu Klinik İletişim">Çalışma Saatleri</a>
@@ -263,35 +265,61 @@
         <section id="sss" class="page-section">
             <div class="container">
                 <h2 class="section-title">Sıkça Sorulan Sorular</h2>
-                <p class="section-subtitle">Kliniğimiz ve tedavilerimiz hakkında merak ettiğiniz soruların yanıtları.</p>
+                <p class="section-subtitle">Kliniğimiz ve tedavilerimiz hakkında merak ettiğiniz soruların yanıtları.
+                </p>
 
-                <div class="faq-container" style="max-width: 800px; margin: 0 auto; display: flex; flex-direction: column; gap: 15px;">
-                    <details style="background: #fff; border: 1px solid rgba(59, 7, 71, 0.1); border-left: 4px solid var(--primary-color); border-radius: 8px; padding: 20px; box-shadow: 0 4px 15px rgba(0,0,0,0.05);">
-                        <summary style="font-weight: 600; font-family: var(--heading-font); color: var(--primary-color); cursor: pointer; font-size: 1.1rem; outline: none; line-height: 1.4;">
+                <div class="faq-container"
+                    style="max-width: 800px; margin: 0 auto; display: flex; flex-direction: column; gap: 15px;">
+                    <details
+                        style="background: #fff; border: 1px solid rgba(59, 7, 71, 0.1); border-left: 4px solid var(--primary-color); border-radius: 8px; padding: 20px; box-shadow: 0 4px 15px rgba(0,0,0,0.05);">
+                        <summary
+                            style="font-weight: 600; font-family: var(--heading-font); color: var(--primary-color); cursor: pointer; font-size: 1.1rem; outline: none; line-height: 1.4;">
                             Çorlu'daki kliniğinizde hangi fizik tedavi ve rehabilitasyon yöntemleri uygulanıyor?
                         </summary>
-                        <p style="margin-top: 15px; font-size: 0.95rem; line-height: 1.6; color: #555;">Tekirdağ Çorlu'da bulunan uzman kliniğimizde başlıca; Manuel Terapi, Akupunktur, Nöralterapi, Osteopati ve Fonksiyonel Tıp uygulamaları yapılmaktadır. Ayrıca kinezyolojik muayene, PRP ve CGF rejeneratif tedavileri ile ağrısız bir yaşam için kişiye özel tedavi planları sunuyoruz.</p>
+                        <p style="margin-top: 15px; font-size: 0.95rem; line-height: 1.6; color: #555;">Tekirdağ
+                            Çorlu'da bulunan uzman kliniğimizde başlıca; Manuel Terapi, Akupunktur, Nöralterapi,
+                            Osteopati ve Fonksiyonel Tıp uygulamaları yapılmaktadır. Ayrıca kinezyolojik muayene, PRP ve
+                            CGF rejeneratif tedavileri ile ağrısız bir yaşam için kişiye özel tedavi planları sunuyoruz.
+                        </p>
                     </details>
-                    
-                    <details style="background: #fff; border: 1px solid rgba(59, 7, 71, 0.1); border-left: 4px solid var(--primary-color); border-radius: 8px; padding: 20px; box-shadow: 0 4px 15px rgba(0,0,0,0.05);">
-                        <summary style="font-weight: 600; font-family: var(--heading-font); color: var(--primary-color); cursor: pointer; font-size: 1.1rem; outline: none; line-height: 1.4;">
+
+                    <details
+                        style="background: #fff; border: 1px solid rgba(59, 7, 71, 0.1); border-left: 4px solid var(--primary-color); border-radius: 8px; padding: 20px; box-shadow: 0 4px 15px rgba(0,0,0,0.05);">
+                        <summary
+                            style="font-weight: 600; font-family: var(--heading-font); color: var(--primary-color); cursor: pointer; font-size: 1.1rem; outline: none; line-height: 1.4;">
                             Manuel Terapi nedir ve kimlere uygulanır?
                         </summary>
-                        <p style="margin-top: 15px; font-size: 0.95rem; line-height: 1.6; color: #555;">Manuel terapi, hiçbir cihaz kullanılmadan yalnızca ellerle uygulanan bir fizik tedavi yöntemidir. Özellikle bel ve boyun fıtığı, kas spazmları ve eklemlerdeki hareket kısıtlılıklarının giderilmesinde son derece etkilidir. Uzm. Dr. Emine Ataoğlu tarafından Çorlu kliniğimizde teşhis ve tedavi amacıyla güvenle uygulanmaktadır.</p>
+                        <p style="margin-top: 15px; font-size: 0.95rem; line-height: 1.6; color: #555;">Manuel terapi,
+                            hiçbir cihaz kullanılmadan yalnızca ellerle uygulanan bir fizik tedavi yöntemidir. Özellikle
+                            bel ve boyun fıtığı, kas spazmları ve eklemlerdeki hareket kısıtlılıklarının giderilmesinde
+                            son derece etkilidir. Uzm. Dr. Emine Ataoğlu tarafından Çorlu kliniğimizde teşhis ve tedavi
+                            amacıyla güvenle uygulanmaktadır.</p>
                     </details>
 
-                    <details style="background: #fff; border: 1px solid rgba(59, 7, 71, 0.1); border-left: 4px solid var(--primary-color); border-radius: 8px; padding: 20px; box-shadow: 0 4px 15px rgba(0,0,0,0.05);">
-                        <summary style="font-weight: 600; font-family: var(--heading-font); color: var(--primary-color); cursor: pointer; font-size: 1.1rem; outline: none; line-height: 1.4;">
+                    <details
+                        style="background: #fff; border: 1px solid rgba(59, 7, 71, 0.1); border-left: 4px solid var(--primary-color); border-radius: 8px; padding: 20px; box-shadow: 0 4px 15px rgba(0,0,0,0.05);">
+                        <summary
+                            style="font-weight: 600; font-family: var(--heading-font); color: var(--primary-color); cursor: pointer; font-size: 1.1rem; outline: none; line-height: 1.4;">
                             Nöralterapi ve Akupunktur ağrı tedavisinde nasıl etki eder?
                         </summary>
-                        <p style="margin-top: 15px; font-size: 0.95rem; line-height: 1.6; color: #555;">Nöralterapi, otonom sinir sistemine lokal anestezik enjeksiyonlar yapılarak hücresel iyileşmeyi uyarır. Akupunktur ise ince iğnelerle vücudun enerji akışını düzenler. Her iki yöntem de kronik ağrıların (migren, fibromiyalji, eklem ağrıları) yönetiminde kliniğimizde sıkça tercih edilen, kanıtlanmış tamamlayıcı tıp uygulamalarıdır.</p>
+                        <p style="margin-top: 15px; font-size: 0.95rem; line-height: 1.6; color: #555;">Nöralterapi,
+                            otonom sinir sistemine lokal anestezik enjeksiyonlar yapılarak hücresel iyileşmeyi uyarır.
+                            Akupunktur ise ince iğnelerle vücudun enerji akışını düzenler. Her iki yöntem de kronik
+                            ağrıların (migren, fibromiyalji, eklem ağrıları) yönetiminde kliniğimizde sıkça tercih
+                            edilen, kanıtlanmış tamamlayıcı tıp uygulamalarıdır.</p>
                     </details>
 
-                    <details style="background: #fff; border: 1px solid rgba(59, 7, 71, 0.1); border-left: 4px solid var(--primary-color); border-radius: 8px; padding: 20px; box-shadow: 0 4px 15px rgba(0,0,0,0.05);">
-                        <summary style="font-weight: 600; font-family: var(--heading-font); color: var(--primary-color); cursor: pointer; font-size: 1.1rem; outline: none; line-height: 1.4;">
+                    <details
+                        style="background: #fff; border: 1px solid rgba(59, 7, 71, 0.1); border-left: 4px solid var(--primary-color); border-radius: 8px; padding: 20px; box-shadow: 0 4px 15px rgba(0,0,0,0.05);">
+                        <summary
+                            style="font-weight: 600; font-family: var(--heading-font); color: var(--primary-color); cursor: pointer; font-size: 1.1rem; outline: none; line-height: 1.4;">
                             Çorlu Fizik Tedavi Kliniğinize nasıl randevu alabilirim ve çalışma saatleriniz nelerdir?
                         </summary>
-                        <p style="margin-top: 15px; font-size: 0.95rem; line-height: 1.6; color: #555;">Kliniğimiz hafta içi (Pazartesi-Cuma) 09:00 - 18:00, Cumartesi günleri ise 10:00 - 15:00 saatleri arasında hizmet vermektedir. Randevu almak için 0555 123 45 67 numaralı telefondan bizi arayabilir veya Örnek Mahallesi, Sağlık Caddesi No:12 Çorlu / Tekirdağ adresindeki kliniğimizi ziyaret edebilirsiniz.</p>
+                        <p style="margin-top: 15px; font-size: 0.95rem; line-height: 1.6; color: #555;">Kliniğimiz hafta
+                            içi (Pazartesi-Cuma) 09:00 - 18:00, Cumartesi günleri ise 10:00 - 15:00 saatleri arasında
+                            hizmet vermektedir. Randevu almak için 0555 123 45 67 numaralı telefondan bizi arayabilir
+                            veya Örnek Mahallesi, Sağlık Caddesi No:12 Çorlu / Tekirdağ adresindeki kliniğimizi ziyaret
+                            edebilirsiniz.</p>
                     </details>
                 </div>
             </div>
@@ -316,18 +344,25 @@
                             </div>
                         </li>
                         <li style="display: flex; align-items: center; gap: 15px;">
-                            <i class="fas fa-envelope" style="font-size: 24px; color: var(--primary-color);"></i>
+                            <i class="fab fa-instagram" style="font-size: 24px; color: var(--primary-color);"></i>
                             <div>
-                                <strong style="display: block; margin-bottom: 5px;">E-posta:</strong>
-                                <p style="margin: 0;"><a href="mailto:dremineataoglu@gmail.com"
-                                        style="color: inherit; text-decoration: none;">dremineataoglu@gmail.com</a></p>
+                                <strong style="display: block; margin-bottom: 5px;">Instagram:</strong>
+                                <p style="margin: 0;"><a href="https://instagram.com/uzm.dr.emine_ataoglu"
+                                        target="_blank"
+                                        style="color: inherit; text-decoration: none;">@uzm.dr.emine_ataoglu</a></p>
                             </div>
                         </li>
-                        <li style="display: flex; align-items: center; gap: 15px;">
-                            <i class="fas fa-map-marker-alt" style="font-size: 24px; color: var(--primary-color);"></i>
-                            <div>
+                        <li style="display: flex; align-items: flex-start; gap: 15px;">
+                            <i class="fas fa-map-marker-alt"
+                                style="font-size: 24px; color: var(--primary-color); margin-top: 5px;"></i>
+                            <div style="width: 100%;">
                                 <strong style="display: block; margin-bottom: 5px;">Adres:</strong>
-                                <p style="margin: 0;">Örnek Mahallesi, Sağlık Caddesi No:12<br>Çorlu / Tekirdağ</p>
+                                <p style="margin: 0; margin-bottom: 15px;">Örnek Mahallesi, Sağlık Caddesi
+                                    No:12<br>Çorlu / Tekirdağ</p>
+                                <iframe
+                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d192244.13745353112!2d27.701198516086745!3d41.15788358485292!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14b4f65057b98d23%3A0xa6062f6b862925b4!2s%C3%87orlu%2C%20Tekirda%C4%9F!5e0!3m2!1str!2str!4v1716900000000!5m2!1str!2str"
+                                    width="100%" height="250" style="border:0; border-radius: 8px;" allowfullscreen=""
+                                    loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                             </div>
                         </li>
                     </ul>
