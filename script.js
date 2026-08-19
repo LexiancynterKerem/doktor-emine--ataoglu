@@ -1,10 +1,10 @@
-document.addEventListener("DOMContentLoaded", function() {
-    
+document.addEventListener("DOMContentLoaded", function () {
+
     // Mobil Menü Fonksiyonu
     const hamburger = document.getElementById('hamburger-menu');
     const mobileMenu = document.getElementById('mobile-menu');
 
-    hamburger.addEventListener('click', function() {
+    hamburger.addEventListener('click', function () {
         mobileMenu.classList.toggle('show');
     });
 
@@ -16,9 +16,9 @@ document.addEventListener("DOMContentLoaded", function() {
         });
     });
 
-    
+
     // Not: Masaüstü menüdeki linkler için scroll-behavior: smooth CSS'de ayarlandı.
-// ===== YENİ EKLENEN SLIDER KODU =====
+    // ===== YENİ EKLENEN SLIDER KODU =====
     const slides = document.querySelectorAll('.slide');
     const nextButton = document.getElementById('next-slide');
     const prevButton = document.getElementById('prev-slide');
@@ -57,7 +57,7 @@ document.addEventListener("DOMContentLoaded", function() {
     }
 
     // İlk slide'ı göster (sayfa yüklendiğinde)
-    if(slides.length > 0) {
+    if (slides.length > 0) {
         showSlide(currentSlide);
     }
     // ===== SLIDER KODU SONU =====
@@ -89,7 +89,7 @@ document.addEventListener("DOMContentLoaded", function() {
         });
 
         showClinicSlide(currentClinicSlide);
-        
+
         // Otomatik geçiş
         setInterval(() => {
             currentClinicSlide++;
