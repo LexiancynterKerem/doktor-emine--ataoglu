@@ -1,0 +1,13 @@
+{
+  "name": "dremine",
+  "version": "1.0.0",
+  "description": "Uzm. Dr. Emine Ataoğlu - Web Sitesi",
+  "main": "index.html",
+  "scripts": {
+    "dev": "npx serve -l 3000",
+    "start": "npx serve -l 3000"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
